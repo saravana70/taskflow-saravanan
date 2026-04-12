@@ -1,0 +1,23 @@
+# Dependencies and Build Artifacts
+node_modules
+dist
+build
+npm-debug.log*
+
+# Git
+.git
+.gitignore
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Configuration (Kept in context for build-time injection)
+# .env 
+# package-lock.json
+# tsconfig.json
